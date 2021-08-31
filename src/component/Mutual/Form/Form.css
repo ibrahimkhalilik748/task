@@ -1,0 +1,42 @@
+.form{
+    width: 85%;
+    margin: 0 auto;
+    height: 100vh;
+    padding-top: 100px;
+}
+.align{
+    text-align: left;
+}
+.align h2{
+    font-size: 38px;
+    font-weight: 700;
+    color:#202647;
+}
+.align h6{
+    color: #F438A7;
+    font-weight: 650;
+}
+.align input{
+    padding: 10px;
+    width: 250px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 0px;
+    background-color: #fefae0;
+}
+.align button{
+    border: 0px;
+}
+.align .button{
+    background-color: #F20791;
+    color: white;
+    padding: 15px 20px;
+    border-radius:30px;
+    font-weight: 600;
+}
+.align .button:hover{
+    background: none;
+    color: #F20791;
+    border: 1px solid #F20791;
+    transition:1s;
+}

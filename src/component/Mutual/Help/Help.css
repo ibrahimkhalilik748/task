@@ -15,11 +15,10 @@
     font-weight: 650;
 }
 .help h5{
-    /* color: #202647; */
     font-weight: 650;
 }
 .help p{
-    font-size:15px;
+    font-size:14px;
     /* color: gray; */
     font-weight: 500;
 }
@@ -41,6 +40,6 @@
 .help .box:hover{
     transition: .5s;
     margin-top: 0px;
-    color: white;
+    color: white !important;
     background-color: #F20791;
 }

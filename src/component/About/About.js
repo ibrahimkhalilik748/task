@@ -1,10 +1,11 @@
 import React from 'react';
+import Example from '../Mutual/Example/Example';
 import './About.css';
 
 const About = () => {
     return (
         <div className="about">
-            <h1>About</h1>
+            <Example></Example>
         </div>
     );
 };

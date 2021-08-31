@@ -1,10 +1,11 @@
 import React from 'react';
+import Boosting from '../Home/Boosting/Boosting';
 import './Projects.css'
 
 const Projects = () => {
     return (
         <div className="projects">
-            <h1>Projects</h1>
+            <Boosting></Boosting>
         </div>
     );
 };
