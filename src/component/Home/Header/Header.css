@@ -1,0 +1,49 @@
+.Header{
+    height: 100vh;
+    width: 85%;
+    margin: 0 auto;
+}
+.Header .head-text{
+    font-size: 72px;
+    color: #202647;
+}
+.Header a{
+    text-decoration: none;
+    padding: 15px 20px;
+    /* margin-right: 10px; */
+    border-radius:30px;
+    font-weight: 600;
+}
+.first-btn{
+    background-color: #F20791;
+    color: white;
+}
+.first-btn:hover{
+    background: none;
+    color: #F20791;
+    border: 1px solid #F20791;
+    transition:1s;
+}
+.second-btn{
+    background: none;
+    color: #131f58;
+    /* border: 1px solid #F20791; */
+}
+.second-btn:hover{
+    /* background-color: #F20791; */
+    color: #F20791;
+}
+.second-btn img{
+    width: 5%;
+    color: #F20791;
+}
+
+.blank-header{
+    width: 72%;
+    font-size:200px;
+    font-weight: 900;
+    position:absolute;
+    margin-top:700px;
+    padding-top: 0px;
+    color: #f9f8fc;
+}

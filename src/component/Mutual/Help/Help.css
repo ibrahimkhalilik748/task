@@ -1,0 +1,46 @@
+.help{
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background-color: #F6F5FB;
+}
+.help h1{
+    font-size: 38px;
+    color: #202647;
+    font-weight: 700;
+}
+.help h6{
+    color: #F438A7;
+    /* text-align:left; */
+    font-weight: 650;
+}
+.help h5{
+    /* color: #202647; */
+    font-weight: 650;
+}
+.help p{
+    font-size:15px;
+    /* color: gray; */
+    font-weight: 500;
+}
+.help .boxs{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 350px 350px 350px;
+}
+.help .box{
+    margin-top: 10px;
+    padding:20px;
+    background-color: white;
+    box-shadow: 0 -1px 10px #e3e3e3;
+    border-radius:5px;
+    height:200px;
+}
+.help .box:hover{
+    transition: .5s;
+    margin-top: 0px;
+    color: white;
+    background-color: #F20791;
+}

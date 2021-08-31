@@ -1,13 +1,57 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './component/Navbar/Navbar';
-import Header from './component/Header/Header';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from './component/Home/Home';
+import About from './component/About/About';
+import Services from './component/Services/Services';
+import Projects from './component/Projects/Projects';
+import Blog from './component/Blog/Blog';
+import Pages from './component/Pages/Pages';
+import Contact from './component/Contact/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar></Navbar>
-      <Header></Header>
+
+    <div>
+      <Router>
+        <Navbar></Navbar>
+        <div className="App">
+          {/* <Navbar></Navbar> */}
+          {/* <Home></Home> */}
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/home">
+              <Home />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/services">
+              <Services />
+            </Route>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/blog">
+              <Blog />
+            </Route>
+            <Route path="/pages">
+              <Pages />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
     </div>
   );
 }
